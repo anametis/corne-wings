@@ -28,6 +28,11 @@
             bindings = <&kp TAB>;
             key-positions = <14 16 15>;
         };
+
+        full-navigation {
+            bindings = <&tog 2>;
+            key-positions = <20 19 21>;
+        };
     };
 
     keymap {
