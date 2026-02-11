@@ -49,7 +49,7 @@
             bindings = <
 &trans    &none  &none  &kp LG(LA(LEFT_ARROW))  &kp RA(RG(RIGHT_ARROW))  &none   &kp C_VOL_UP  &kp PAGE_DOWN   &kp PAGE_UP  &none  &none  &trans
 &kp CAPS  &none  &none  &kp LEFT                &kp RIGHT_ARROW          &none   &none         &kp DOWN_ARROW  &kp UP       &none  &none  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT
-&trans    &none  &none  &none                   &none                    &none   &kp C_VOL_DN  &kp END         &kp HOME     &none  &none  &trans
+&trans    &none  &none  &kp LC(LEFT_ARROW)      &kp LC(RIGHT_ARROW)      &none   &kp C_VOL_DN  &kp END         &kp HOME     &none  &none  &trans
                         &trans                  &trans                   &trans  &trans        &trans          &trans
             >;
         };
