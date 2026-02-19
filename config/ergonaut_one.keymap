@@ -17,7 +17,7 @@
 
         tri-layer {
             if-layers = <1 2>;
-            then-layer = <3>;
+            then-layer = <4>;
         };
     };
 
@@ -41,10 +41,10 @@
         default_layer {
             display-name = "MAIN";
             bindings = <
-&kp ESCAPE        &kp Q  &kp W  &kp E                 &kp R         &kp T                     &kp Y          &kp U                   &kp I              &kp O    &kp P     &kp DEL
-&kp MINUS         &kp A  &kp S  &kp D                 &kp F         &kp G                     &kp H          &kp J                   &kp K              &kp L    &kp SEMI  &kp SQT
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C                 &kp V         &kp B                     &kp N          &kp M                   &kp COMMA          &kp DOT  &kp FSLH  &kp RIGHT_ALT
-                                &mt LEFT_CONTROL TAB  &lt 2 ESCAPE  &mt LEFT_SHIFT BACKSPACE  &lt LWR SPACE  &mt LEFT_COMMAND ENTER  &mt RIGHT_ALT DEL
+&kp ESCAPE        &kp Q  &kp W  &kp E                 &kp R         &kp T                     &kp Y        &kp U                   &kp I              &kp O    &kp P     &kp DEL
+&kp MINUS         &kp A  &kp S  &kp D                 &kp F         &kp G                     &kp H        &kp J                   &kp K              &kp L    &kp SEMI  &kp SQT
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C                 &kp V         &kp B                     &kp N        &kp M                   &kp COMMA          &kp DOT  &kp FSLH  &kp RIGHT_ALT
+                                &mt LEFT_CONTROL TAB  &lt 2 ESCAPE  &mt LEFT_SHIFT BACKSPACE  &lt 1 SPACE  &mt LEFT_COMMAND ENTER  &mt RIGHT_ALT DEL
             >;
         };
 
@@ -65,6 +65,15 @@
 &none   &none  &none  &kp LEFT                &kp RIGHT_ARROW          &none   &none   &kp DOWN_ARROW  &kp UP       &none  &none  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT
 &trans  &none  &none  &kp LC(LEFT_ARROW)      &kp LC(RIGHT_ARROW)      &none   &none   &kp END         &kp HOME     &none  &none  &trans
                       &trans                  &trans                   &trans  &trans  &trans          &trans
+            >;
+        };
+
+        num_layer {
+            bindings = <
+&trans            &kp TILDE    &kp PIPE      &kp AMPERSAND         &kp EXCLAMATION        &kp LESS_THAN     &kp DOT    &kp N7        &kp N8        &kp N9        &kp HASH        &trans
+&kp LEFT_BRACKET  &kp SLASH    &kp ASTERISK  &kp MINUS             &kp PLUS               &kp EQUAL         &kp N0     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp UNDERSCORE  &kp RIGHT_BRACKET
+&trans            &kp PERCENT  &kp LCTRL     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOLLAR      &trans
+                                             &trans                &trans                 &trans            &trans     &trans        &trans
             >;
         };
 
